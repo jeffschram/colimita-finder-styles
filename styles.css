@@ -100,7 +100,6 @@ fieldset#finder_form,
 fieldset#finder_results {
   border: none;
   margin: 0;
-  height: 100vh;
 }
 @media (min-width: 64em) {
   fieldset#finder_form,
