@@ -1,3 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  font-size: 2vw;
+}
+@media (min-width: 20em) {
+  html {
+    font-size: 2.75vw;
+  }
+}
+@media (min-width: 46em) {
+  html {
+    font-size: 2.25vw;
+  }
+}
+@media (min-width: 64em) {
+  html {
+    font-size: 1.5vw;
+  }
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #33c0a7;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
 body {
-  background: white;
+  font-size: 100%;
+}
+
+#vipcopyright,
+#finder_header,
+#finder_BFBRCD,
+#finder_BFPTYP {
+  display: none !important;
+}
+
+div#content {
+  margin: 0 1.25rem;
+}
+@media (min-width: 46em) {
+  div#content {
+    margin: 0;
+    display: flex;
+  }
+}
+
+fieldset#finder_form {
+  padding: 7rem 0 0 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+fieldset#finder_form input,
+fieldset#finder_form select {
+  width: 100%;
+  display: block;
+  margin: 0.75rem 0;
+}
+fieldset#finder_form::before {
+  content: "";
+  display: block;
+  width: 20rem;
+  height: 4rem;
+  background-image: url("/assets/colimita/find-colimita-sm.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+@media (min-width: 46em) {
+  fieldset#finder_form {
+    margin: 0;
+    background: #33c0a7;
+    padding: 7rem 4rem 0 4.625rem;
+    overflow: auto;
+  }
+  fieldset#finder_form::before {
+    height: 8rem;
+    width: 8rem;
+    background-image: url("/assets/colimita/find-colimita-lg.png");
+  }
+}
+@media (min-width: 64em) {
+  fieldset#finder_form {
+    flex-basis: 20rem;
+    padding: 7rem 4rem 0 calc(4.625rem + ((100vw - 65rem) / 2));
+    background-position: calc(4.625rem + ((100vw - 65rem) / 2)) 8rem;
+  }
+}
+
+fieldset#finder_form,
+fieldset#finder_results {
+  border: none;
+  margin: 0;
+  height: 100vh;
+}
+fieldset#finder_form legend,
+fieldset#finder_results legend {
+  display: none;
+}
+
+@media (min-width: 46em) {
+  fieldset#finder_results {
+    flex: 2;
+    height: 100vh;
+    display: block;
+    background: lightblue;
+  }
+}
+
+div#panel_search_results {
+  display: none;
 }
