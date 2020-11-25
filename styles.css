@@ -110,7 +110,7 @@ fieldset#finder_results legend {
     flex: 2;
     height: 100vh;
     display: block;
-    background: lightblue;
+    background: #e8e8e8;
   }
 }
 
