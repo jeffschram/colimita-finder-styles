@@ -117,7 +117,7 @@ fieldset#finder_results {
     flex: 2;
     height: 100vh;
     display: block;
-    background: lightgreen;
+    background: yellow;
     background: #e8e8e8;
   }  
 }
