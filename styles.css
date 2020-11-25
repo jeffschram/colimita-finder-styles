@@ -105,6 +105,13 @@ fieldset#finder_results legend {
   display: none;
 }
 
+
+fieldset#finder_results {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 30rem;
+}
 @media (min-width: 46em) {
   fieldset#finder_results {
     flex: 2;
@@ -112,7 +119,17 @@ fieldset#finder_results legend {
     display: block;
     background: lightgreen;
     background: #e8e8e8;
-  }
+  }  
+}
+
+fieldset#finder_results #map_canvas {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
 }
 
 div#panel_search_results {
