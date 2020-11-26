@@ -1,4 +1,4 @@
-/* C */
+/* D */
 
 * {
   box-sizing: border-box;
@@ -73,7 +73,7 @@ fieldset#finder_form::before {
   display: block;
   width: 20rem;
   height: 4rem;
-  background-image: url("/assets/colimita/find-colimita-sm.png");
+  background-image: url("https://jeffschram.github.io/colimita-finder-styles/find-colimita-sm.png");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -132,7 +132,7 @@ fieldset#finder_results #map_canvas {
   fieldset#finder_form::before {
     height: 8rem;
     width: 8rem;
-    background-image: url("/assets/colimita/find-colimita-lg.png");
+    background-image: url("https://jeffschram.github.io/colimita-finder-styles/find-colimita-lg.png");
   }
 
   /* FINDER RESULTS */
