@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/xnx3thq.css");
-/* M */
+/* N */
 
 * {
   box-sizing: border-box;
@@ -50,6 +50,9 @@ select, input, button, textarea, button {
   background: rgba(255,255,255, .7);
   font-size: 0.75rem;
   border: none !important;
+}
+select {
+  border-right: 0.5rem solid rgba(255,255,255, .7) !important;
 }
 input#submitBtn {
   background: black;
