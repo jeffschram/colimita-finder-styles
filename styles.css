@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/xnx3thq.css");
-/* L */
+/* M */
 
 * {
   box-sizing: border-box;
@@ -16,7 +16,7 @@ html {
 }
 @media (min-width: 46em) {
   html {
-    font-size: 2.25vw;
+    font-size: 1.5vw;
   }
 }
 @media (min-width: 64em) {
