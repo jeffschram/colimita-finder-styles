@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/xnx3thq.css");
-/* F */
+/* G */
 
 * {
   box-sizing: border-box;
@@ -33,6 +33,14 @@ html {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  font-family: letter-gothic-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html *,
+body *,
+select, input, button, textarea, button {
   font-family: letter-gothic-std, monospace;
   font-weight: 700;
   font-style: normal;
@@ -97,6 +105,7 @@ fieldset#finder_results {
   width: 100%;
   height: 30rem;
   margin-top: 3rem;
+  display: block !important;
 }
 /* RESULTS CANVAS */
 fieldset#finder_results #map_canvas {
