@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/xnx3thq.css");
-/* K */
+/* L */
 
 * {
   box-sizing: border-box;
@@ -60,6 +60,7 @@ input#submitBtn {
   display: inline-block !important;
   width: auto !important;
   padding: 0.5rem 1.5rem !important;
+  border: none !important;
 }
 
 body {
