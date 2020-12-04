@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/xnx3thq.css");
-/* O */
+/* P */
 
 * {
   box-sizing: border-box;
@@ -76,8 +76,7 @@ body {
 #finder_BFBRCD,
 #finder_BFPTYP,
 fieldset#finder_form legend,
-fieldset#finder_results legend,
-div#panel_search_results  {
+fieldset#finder_results legend{
   display: none !important;
 }
 
@@ -116,6 +115,17 @@ fieldset#finder_form,
 fieldset#finder_results {
   border: none;
   margin: 0;
+}
+
+/* NO RESULTS */
+div#panel_search_results  {
+  background: black;
+  padding: 2rem;
+  color: white;
+  margin: 15rem 3rem;
+}
+.finder-no-results-found {
+  margin-bottom: 2rem;
 }
 
 /* RESULTS  */
